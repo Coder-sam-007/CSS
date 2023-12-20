@@ -5,24 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lists and tables</title>
+  <link rel="stylesheet" href="style.css">
   <style>
-    body {
-      display: grid;
-      place-items: center;
-    }
 
-    li {
-      list-style-type: decimal;
-      list-style-position: inside;
-
-
-      background: skyblue;
-      padding: .5rem;
-      margin: .4rem;
-      width: 10rem;
-      border-left: .4rem solid blue;
-      font-size: 1.5rem;
-    }
   </style>
 </head>
 
@@ -40,6 +25,81 @@
   </ul>
 
   <h2>table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+        <th>City</th>
+        <th>Number</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Michael</td>
+        <td>28</td>
+        <td>Male</td>
+        <td>New York</td>
+        <td>123-456-7890</td>
+      </tr>
+      <tr>
+        <td>Emily</td>
+        <td>35</td>
+        <td>Female</td>
+        <td>Los Angeles</td>
+        <td>987-654-3210</td>
+      </tr>
+      <tr>
+        <td>Alex</td>
+        <td>22</td>
+        <td>Male</td>
+        <td>Chicago</td>
+        <td>555-123-4567</td>
+      </tr>
+      <tr>
+        <td>Sophia</td>
+        <td>27</td>
+        <td>Female</td>
+        <td>Miami</td>
+        <td>777-888-9999</td>
+      </tr>
+      <tr>
+        <td>Matthew</td>
+        <td>32</td>
+        <td>Male</td>
+        <td>San Francisco</td>
+        <td>111-222-3333</td>
+      </tr>
+      <tr>
+        <td>Olivia</td>
+        <td>29</td>
+        <td>Female</td>
+        <td>Seattle</td>
+        <td>444-555-6666</td>
+      </tr>
+      <tr>
+        <td>Nathan</td>
+        <td>26</td>
+        <td>Male</td>
+        <td>Denver</td>
+        <td>888-999-0000</td>
+      </tr>
+      <tr>
+        <td>Isabella</td>
+        <td>31</td>
+        <td>Female</td>
+        <td>Dallas</td>
+        <td>222-333-4444</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Total: </td>
+        <td colspan="4">8 persons</td>
+      </tr>
+    </tfoot>
+  </table>
 
 
 </body>

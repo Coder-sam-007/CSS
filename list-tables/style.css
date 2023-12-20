@@ -1,0 +1,46 @@
+body {
+  display: grid;
+  place-items: center;
+}
+
+li {
+  list-style-type: decimal;
+  list-style-position: inside;
+
+  background: skyblue;
+  padding: 0.5rem;
+  margin: 0.4rem;
+  width: 10rem;
+  border-left: 0.4rem solid blue;
+  font-size: 1.5rem;
+}
+
+/* tables */
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  border-radius: 0.4rem;
+  border: none;
+  overflow: hidden;
+}
+
+th,
+td {
+  border: 5px solid #607d8b;
+  padding: 8px;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+thead {
+  background-color: #5cff96;
+}
+
+tfoot {
+  font-weight: bold;
+}
+
+td:hover {
+  background-color: aquamarine;
+}
