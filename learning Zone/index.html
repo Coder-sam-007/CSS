@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Zone</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header id="home">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#grido">Grid</a></li>
+                <li><a href="#animato">Animation</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="top-social">
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="fp">
+
+            <div class="heao">
+                <h1>Learning Zone</h1>
+            </div>
+
+            <div class="hero">
+                <h2>Welcome to Learning Zone..</h2>
+                <h3>The future is waiting for us </h3>
+            </div>
+        </div>
+        <div class="exp">
+
+            <div class="short-hand-title">
+                <h2>Some Cool Short-hands</h2>
+            </div>
+
+            <div class="short-hands">
+                <div class="box">
+                    <h3>margin/padding</h3>
+                    <p>margin/padding = top right bottom left; <br> margin/padding: 1% 0.5% 2% 1% <br> margin/padding: y(top/bottom) x(left/right); <br> margin/padding: 10px 5px; </p>
+                </div>
+                <div class="box">
+                    <h3>Fonts</h3>
+                    <p>Font= style weight size height family <br> Font: italic bold 9px/1.2 ariel,roman</p>
+                </div>
+                <div class="box">
+                    <h3>Background</h3>
+                    <p>
+                        background= offset-x offset-y blur-radius spread-radius color; <br> Background: 3px 5px 10px 4px #583902;
+                    </p>
+                </div>
+
+                <div class="box">
+                    <h3>Box-shadow</h3>
+                    <p>
+                        Box-shadow= offset-x offset-y blur-radius spread-radius color; <br> Box-shadow: #587578 url(img.jpg) no-repeat left top;
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="short-hand-title">
+                <h2>
+                    Some Important Selectors
+                </h2>
+            </div>
+
+            <div class="short-hands sow">
+                <div class="box box2">
+                    <h3>Advance Selector</h3>
+                    <p>if p is right inside div then this CSS will be applied div > p <br> if p is right after div i.e p is the next sibling of div div + p </p>
+                </div>
+                <div class="box box2">
+                    <h3>Child selector</h3>
+                    <p> This will apply css for third child <br> li:nth-child(3)
+                    </p>
+                </div>
+                <div class="box box2">
+                    <h3>attribute selector</h3>
+                    <p>input[type='text'] { ... }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a[target] { ... }
+                    </p>
+                </div>
+                <div class="box box2">
+                    <h3>Odd/even child selector</h3>
+                    <p>Odd/even child <br> li:nth-child(odd/even){... }
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="asum">
+            <div class="short-hand-title">
+                <h2>Some Cool CSS Properties</h2>
+            </div>
+
+            <div class="short-hands">
+                <div class="box box3">
+                    <h3>Z-Index</h3>
+                    <p>z-index will work only for position: relative, absolute, fixed or sticky; </p>
+                </div>
+                <div class="box box3">
+                    <h3>css variables</h3>
+                    <p>:root { --primary-color: blue; <br> --danger-color: red; <br> --maxw: 333px; } </p>
+                </div>
+                <div class="box box3">
+                    <h3>Background img trick</h3>
+                    <p>background: url('../bg1.jpg') no-repeat center center/cover; </p>
+                </div>
+                <!-- <div class="box box3">
+                    <h3>Pre Element</h3>
+                    <pre>The text inside a pre element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and 
+                        
+                        line breaks: </pre>
+                </div> -->
+                <div class="box box3">
+                    <h3>Highlighting an element</h3>
+                    <p>The HTML <mark>MARK</mark> element defines text that should be marked or highlighted:</p>
+                </div>
+                <div class="box box3">
+                    <h3>Abbr tag</h3>
+                    <p>The HTML ''abbr'' tag defines an abbreviation or an acronym, like <abbr title="As soon as possible">"ASAP"</abbr>, <abbr title="Any Time Money">ATM</abbr></p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="animation" id="animato">
+            <div class="heao">
+                <h1>Animation Time</h1>
+            </div>
+            <div class="exp two">
+
+
+                <div class="short-hands two">
+                    <div class="box box2">
+                        <h3>Animation Property</h3>
+                        <p>animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; <br> animation: harry 5s ease-in 1s 12 backwards; <br> we need to add keyframaes while writing
+                            animation
+                        </p>
+                    </div>
+
+
+                    <div class="box box2" id="exp">
+
+                        <h3>Hello...</h3>
+
+                    </div>
+                    <div class="box box2">
+                        <h3>Transition Property</h3>
+                        <p> transition-property: background-color; transition-duration: 1s; transition-timing-function: ease-in-out; transition-delay: 2s; <br><br> Transition short hand property in one line transition: background-color 1s ease-in-out 2s;
+
+
+                            <mark>all 1s ease-in-out .3s;</mark>
+                        </p>
+                    </div>
+
+                    <div class="box box2" id="exp2">
+
+                        <h3>Hover Me</h3>
+
+                    </div>
+
+                    <div class="box box2">
+                        <h3>Transform Property</h3>
+                        <p> it helps to give differnt shapes and sizes to different elements <br><br> transform: rotate(360deg); transform: skew(40deg); transform: scale(2); transform: translateX(123px); transform: translateY(123px); transform: translate(123px,
+                            123px); </p>
+                    </div>
+
+                    <div class="box box2" id="exp3">
+
+                        <h3>Hover Me</h3>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="exp grid-system" id="grido">
+            <div class="short-hand-title">
+                <h2>Grid-system</h2>
+            </div>
+            <div class="grid">
+                <div class="box box2">
+                    <h3>Grid Basics</h3>
+                    <p>We use grid property to design beautiful layouts.. Some <mark>useless</mark> properties are <br> 1.grid-template-columns: 1fr 4fr 1fr; <br> it specifies no. of columns with specfic fractions of the div according to ur wish. <br>grid-template-rows:
+                        1fr 1fr 4fr; It is similar to grid-template-columns. <br> grid-auto-rows: 2fr; it gives auto width to other unspecified rows.
+                    </p>
+                </div>
+
+                <div class="box box2" id="grid-1">
+                    <div class="box-10">1</div>
+                    <div class="box-10">2</div>
+                    <div class="box-10">3</div>
+                    <div class="box-10">4</div>
+                    <div class="box-10">5</div>
+                    <div class="box-10">6</div>
+
+                </div>
+                <div class="box box2">
+                    <h3>Useful grid properties</h3>
+                    <p> grid-template-columns/rows:repeat(4, 2fr) -- it gives power to repeat rows and columns with a particular <strong>fr</strong> or any other units. <br> <br> grid-gap Just understand it /* grid-column-gap: 7rem; grid-row-gap: 1rem; */
+                        <br> grid-template-columns/rows: repeat(auto-fit, minmax(300px, 1fr)); <br> <br> it allows us to set min and max value of a grid item.
+                    </p>
+                </div>
+
+                <div class="box box2" id="grid-2">
+                    <div class="box-10">1</div>
+                    <div class="box-10">2</div>
+                    <div class="box-10">3</div>
+                    <div class="box-10">4</div>
+                    <div class="box-10">5</div>
+                    <div class="box-10">6</div>
+                    <div class="box-10">7</div>
+                    <div class="box-10">8</div>
+                    <div class="box-10">9</div>
+                    <div class="box-10">10</div>
+
+                </div>
+                <div class="box box2">
+                    <h3>Grid Spanning</h3>
+                    <p>
+                        .box:first-child{ <br> /* grid-column-start: 1; <br> grid-column-end: 3; <br> grid-row-start: 1; <br> grid-row-end: 3; */ <br> grid-column: 1 / span 3; <br> grid-row: 1 / span 3;
+                    </p>
+                </div>
+
+                <div class="box box2">
+                    <h3>Grid Area</h3>
+                    <p> It is used to design a layout by giving particular div a class or id then by giving a particular name to the div we can create a matrix by using grid-name
+                    </p>
+                </div>
+
+                <div class="grid_area">
+
+                    <div class="grid-area" id="one">The Zain</div>
+                    <div class="grid-area" id="two">The Zain</div>
+                    <div class="grid-area" id="three">The Zain</div>
+                    <div class="grid-area" id="four">The Zain</div>
+                    <div class="grid-area" id="five">The Zain</div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="home">
+            <a href="#home">Home</a>
+        </div>
+        <div class="copy">
+            Learning Zone copyright 2021-22
+        </div>
+
+    </footer>
+
+    <script src="https://kit.fontawesome.com/1a75cbfc88.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

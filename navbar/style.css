@@ -1,0 +1,126 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: var(--ff-primary);
+  font-size: 1.2rem;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/****** Utility Classes *******/
+
+/* buttons,containers,lists etc */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: min(1400px, 100% - 2rem);
+  margin-inline: auto;
+}
+
+.heading {
+  font-size: clamp(2rem, 1.5714rem + 1.9048vw, 3rem);
+  margin: 2rem auto;
+  letter-spacing: 1px;
+}
+
+.btn {
+  cursor: pointer;
+  width: fit-content;
+  display: block;
+  width: fit-content;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  background: aliceblue;
+  color: #2a5440;
+  border-radius: 0.4rem;
+}
+
+.mob-btns {
+  display: none;
+}
+
+.mob-btns button {
+  width: 70%;
+  margin: 1rem auto;
+}
+
+button {
+  padding: 0.6rem 0.8rem;
+  font-size: 1.2rem;
+  margin: 0.8rem auto;
+  border-radius: 1rem;
+  width: fit-content;
+  cursor: pointer;
+  border: none;
+  color: var(--accent_clr);
+  background-color: var(--my_black);
+  box-shadow: 0 1.125em 1em -1em var(--clr-accent);
+}
+
+.button:hover,
+.button:focus-visible {
+  background-color: var(--clr-accent);
+  box-shadow: none;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2a5440;
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+}
+
+.logo {
+  color: white;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
