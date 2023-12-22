@@ -4,21 +4,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>AI Friend</title>
-  <script src="script.js" defer></script>
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
 </head>
 
 <body>
-  <div id="app">
-    <div id="aiFriendContainer">
-      <h1>AI Friend</h1>
-      <textarea id="speechInput" placeholder="Speak here..."></textarea>
-      <button onclick="startSpeechRecognition()">Start Chatting</button>
-      <div id="responseArea"></div>
+  <div class="container">
+    <div class="input-container">
+      <h1>Number Guessing game</h1>
+      <label for="inp">Enter the right number:</label>
+      <input type="text" name="inp" id="inp">
+      <button type="submit" id="btn">Submit</button>
+    </div>
+    <div class="output-container">
+      <p></p>
     </div>
   </div>
-
 </body>
 
 </html>
